@@ -1,0 +1,22 @@
+<ion-view view-title="">
+    <ion-content class="padding color">
+            <ion-list>
+              
+                    <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+                        <img ng-src="https://polenfiles.blob.core.windows.net/ongs/ong-sos-amazonia-thumb.png">
+                        <p> {{mensagem}}</p>
+                    </ion-item> 
+                    
+                   
+                    <div class="card">
+                        <div class="bar bar-header  item-input-inset">
+                            <input id ="inputNo" type="text" placeholder="Escreva sua mensagem aqui" ng-model="texto"> 
+                            <button class="button  button-assertive" ng-click="mandarMensagem(texto)">
+                                Enviar
+                                </button>
+                        </div>
+                    </div>
+
+            </ion-list>
+  </ion-content>
+</ion-view>

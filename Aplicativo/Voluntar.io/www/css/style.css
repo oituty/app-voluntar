@@ -1,0 +1,61 @@
+/* Empty. Add your own CSS if you like */
+.color{
+    background-color: black;
+    color:   rgb(107, 31, 31);  
+}
+.color a{
+    color:  rgb(107, 31, 31);
+    font-weight: bolder;
+    font-size: 1.20em;
+}
+.color input{
+    background-color: black;
+    color:  rgb(140, 31, 31);
+    font-weight: bolder;
+}
+.color input::-webkit-input-placeholder{
+    color:  rgb(140, 31, 31);
+    font-weight: bolder;
+}
+.color #opacity{
+    background-color: rgb(4, 4, 4);
+};
+.margin-card{
+    margin-top: 10%;
+}
+
+.list{
+   text-align: center;
+}
+
+.body-color{
+    background-color: black
+}
+.bar-border{
+    border: solid brown 3px;
+}
+
+.nomeOng{
+    color: antiquewhite;
+}
+
+/* CSS PERFIL */
+#nomeTitulo{
+    color:black;
+    font-size: 20px;
+}
+
+#descricao{
+    font-style: oblique;
+}
+.color #inputNo{
+    background-color:white;
+    width: 100%;
+    color:  rgb(68, 67, 67);
+    font-weight: bolder;
+}
+.color #inputNo::-webkit-input-placeholder{
+    background-color:white;
+    color:none;
+    font-weight: bolder;
+}
